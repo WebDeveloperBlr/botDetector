@@ -1,0 +1,22 @@
+{
+  "name": "botdetector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "start": "node test.js",
+    "build-start": "tsc test.ts & npm start",
+    "start-dev": "nodemon --watch test.ts --exec npm run build-start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebDeveloperBlr/botDetector.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WebDeveloperBlr/botDetector/issues"
+  },
+  "homepage": "https://github.com/WebDeveloperBlr/botDetector#readme"
+}
